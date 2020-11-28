@@ -1,0 +1,544 @@
+body{
+    margin: 0;
+}
+/******************************NAV*********************************************/
+nav{
+    margin-top: 0;
+    overflow: hidden;
+    border-top: 5px solid #29ca8e;
+    width: 100%;
+}
+nav .logo{
+    float: left;
+    margin-left: 200px;
+    width: 5%;
+    font-size: 21px;
+    font-family: cursive;
+    color: #454545;
+    margin-top: 14px;
+}
+nav .list{
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    margin-left: 160px;
+}
+nav .list ul{
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    height: 55px;
+    overflow: hidden;
+}
+nav .list ul li{
+    float: left;
+    height: 55px;
+    font-size: 20;
+    font-family: initial;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 13px;
+    overflow: hidden;
+    margin: 0;
+}
+nav .list ul li a{
+    text-decoration:none;
+    display: inline-block;
+    color: #706f6f;
+    height: 30;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    padding-left: 10;
+    padding-right: 10;
+}
+nav .list ul li a:hover{
+    background-color: #29ca8e;
+    color: white;
+    transition: 0.5s all;
+}
+
+/*********************************************************Header**************************************/
+header{
+    background-image: url(images/slider-image3.jpg);
+    background-size: 100%, 100%;
+    height: 700px;
+    overflow: hidden;
+}
+header .text{
+    overflow: hidden;
+    width: 45%;
+    display: inline-block;
+    margin-left: 200;
+    margin-top: 300;
+    overflow: hidden;
+    width: 37%;
+}
+header .text h1{
+    display: inline;
+    float: left;
+    color: white;
+    font-size: 42px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    /*color: #29ca8e;*/
+}
+header .text p{
+    display: inline;
+    float: left;
+    color: white;
+    font-size: 18px;
+}
+header .text a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 26px;
+    font-size: 17px;
+    margin-top: 70px;
+}
+header .text a:hover{
+    background-color: #29ca8e;
+    transition: 0.5s all;
+}
+/**********************************************BOX************************************************************/
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.container .box{
+    margin-top: 140px;
+    width: 31%;
+    display: inline-block;
+    border: 0.5px solid #ddd;
+}
+.container .box span{
+    margin-left: 20px;
+    display: inline-block;
+    width: 60px;
+    height: 47px;
+    text-align: center;
+    border: 1px solid #3f51b5;
+    border-radius: 60px;
+    background-color: #3f51b5;
+    font-size: 26px;
+    font-family: cursive;
+    color: white;
+    padding-top: 12px;
+    margin-top: 40px;
+}
+.container .box h2{
+    margin-left: 20px;
+    color: #454545;
+    font-family: sans-serif;
+}
+.container .box p{
+    margin-left: 20px;
+    color: #757575;
+    font-family:serif;
+    margin-bottom: 80px;
+    padding-right: 42px;
+}
+.container .box:nth-of-type(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/******************************************Course*******************************************/
+.container .course{
+    width: 50%;
+    float: left;
+    margin: 130px 0px;
+}
+.container .course h1{
+    color: #353535;
+    font-family: sans-serif;
+}
+.container .course .c1{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.container .course span{
+    display: inline-block;
+    font-size: 26px;
+    color: white;
+    border: 1px solid #02ffaa;
+    border-radius: 68px;
+    background-color: #02ffaa;
+    width: 40px;
+    height: 33px;
+    text-align: center;
+    padding-top: 7px;
+}
+.container .course h2{
+    display: inline-block;
+    color: #514848;
+    margin-left: 15px;
+}
+.container .course p{
+    margin-left: 59px;
+    color: #757575;
+    font-size: 15px;
+    margin-top: 0px;
+    font-family: sans-serif;}
+/******************************************Sign*******************************************/
+.container .sign{
+    width: 45%;
+    float: left;
+    margin-left: 53px;
+    background-color: #b8b1a7;
+    border-radius: 291px;
+    height: 475px;
+    margin: 130px 0px;
+}
+.container .sign h1{
+text-align: center;
+    margin-top: 95px;
+    font-size: 36px;
+    color: white;
+    font-family: sans-serif;
+}
+.container .sign form{
+    width: 80%;
+    margin: auto;
+}
+.container .sign form input{
+    border: 0;
+    outline-style: none;
+    font-size: 17px;
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin-top: 15px;
+}
+.container .sign form hr{
+    margin: 0;
+    margin-top: 5px;
+}
+.container .sign form button{
+    width: 130px;
+    height: 50px;
+    border-radius: 112px;
+    display: inline-block;
+    margin-left: 125px;
+    margin-top: 45px;
+    border: 0px;
+    outline-style: none;
+}
+.container .sign form button:hover{
+    cursor: pointer;
+    background-color: #29ca8e;
+    color: white;
+    transition: 0.5s all;
+}
+/******************************************Teachers***************************************************/
+.teachers{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.teachers h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 34px;
+    color: #474243;
+    margin-bottom: 0;
+}
+.teachers h3{   
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: darkgray;
+    font-family: sans-serif;
+    font-size: medium;
+    line-height: 1;
+}
+.teachers .t1{
+    width: 23%;
+    float: left;
+    margin-right: 26px;
+    border: 0.3px solid #ddd;
+}
+.teachers .t1 .timg{
+   width: 100%; 
+}
+.teachers .t1 .timg img{
+    width: 100%;
+}
+.teachers .info h2{
+    color: #454545;
+    margin-left: 10px;
+}
+.teachers .info p{
+    color: #454544;
+    margin-left: 10px;
+}
+.icons{
+    margin-bottom: 20px;
+}
+.icons a{
+    font-size: 20px;
+    margin-right: 20;
+    color: #252020;
+    margin-left: 10px;
+}
+.icons a:hover{
+    color: #29ca8e;
+}
+.teachers .t1:nth-of-type(4){
+    margin-right: 0px;
+    float: right;
+}
+/*******************************************************popular*********************************/
+.popular{
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+.popular>h1{
+    text-align: center;
+    margin-bottom: 2px;
+    color: #353535;
+}
+.popular>p{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    color: #777;
+}
+.popular .p1{
+    width: 30%;
+    overflow: hidden;
+    background-color: #fcf6f6;
+    border: 0.1px solid #ddd;
+    float: left;
+}
+.popular .p1:nth-of-type(2){
+    margin: 0px 40px;
+}
+.popular .p1 .pimg{
+    position: relative;
+}
+.popular .p1 .pimg img{
+    width: 100%;
+}
+.popular .p1 .pimg .sp{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 34px;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+.popular .p1 .pimg .sp span{
+    display: inline-block;
+    margin-top: -26px;
+    margin-left: 3px; 
+    color: #ffffff;
+}
+.popular .pinfo h2{
+    margin-left: 10px;
+    color: #252525;
+}
+.popular .pinfo p{
+    margin-left: 10px;
+    color: #757575;
+}
+.popular .picon{
+    overflow: hidden;  
+    border-top: 0.5px solid #ddd;
+}
+.popular .picon img{
+    width: 60px;
+    border-radius: 72px;
+    height: 60px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.popular .picon span{
+    display: inline-block;
+    float: left;
+    margin-top: 47px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.popular .picon span:last-of-type{
+    float: right;
+    background-color: deepskyblue;
+    color: white;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-right: 8px;
+    margin-top: 43px;
+}
+.popular .picon span:last-of-type:hover{
+    cursor: pointer;
+}
+/*****************************************Student**************************************************/
+.student{
+    overflow: hidden;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.student h2{
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    color: #353535;
+}
+.student h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    color: #9f9494;
+}
+.student .stbox{
+    width: 30%;
+    overflow: hidden;
+    float: left;    
+    border: 0.3px solid #ddd;
+    height: 265px;
+}
+.student .stbox img{
+    width: 60px;
+    border-radius: 72px;
+    height: 60px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.student .stbox p:nth-of-type(1){
+    margin-left: 110px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #413d3d;
+    margin-top: 38px;
+}
+.student .stbox p:nth-of-type(2){
+    margin-left: 110px;
+    margin-top: 5px;
+    color: #808080;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.student .stbox p:nth-of-type(3){
+    margin-top: 57px;
+    margin-left: 32px;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-right: 15px;
+    color: #757575;
+}
+.student .stbox span{
+    width: 20px;
+    height: 20px;
+    color: #01015d;
+}
+.student .stbox span:nth-of-type(1){
+    margin-left: 30px;
+}
+/******************************/
+.student .stbox{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+/*********************************************************************************************/
+.contact{
+    overflow: hidden;
+    background-color: #3f51b5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cont{
+    width: 36%;
+    float: left;
+    margin-left: 243px;
+}
+.contact .cont h2 , p{
+    font-family: sans-serif;
+    color: #f9f9f9;
+}
+.contact .cont h2{
+    font-size: 33px;
+    margin-bottom: 5px;
+}
+.contact .cont p{
+    font-size: 14px;
+    margin-top: 0px;
+}
+.contact .cont form input , textarea{
+    display: block;
+    width: 88%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 0px;
+    outline-style: none;
+}
+.contact .cont form textarea{
+    height: 120px;
+    color: grey;
+}
+.contact .cont form button{
+    margin-top: 40;
+    width: 160px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid transparent ;
+    font-size: 14px;
+    color: grey;
+}
+.contact .cont form button:hover{
+    cursor: pointer;
+    background-color:#3f51b5;
+    border: 1px solid white ;
+    color: white;
+    transition: 1s all;
+}
+.contact .photo{
+    width: 32%;
+    float: left;
+    height: 446px;
+}
+.contact .photo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
